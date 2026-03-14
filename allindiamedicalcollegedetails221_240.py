@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/shimoga-institute-of-medical-sciences-69907",
-  "https://www.shiksha.com/university/chaudhary-sarwan-kumar-himachal-pradesh-krishi-vishvavidyalaya-palampur-64329",
-  "https://www.shiksha.com/college/mgm-dental-college-and-hospital-navi-mumbai-78167",
-  "https://www.shiksha.com/college/rohilkhand-medical-college-and-hospital-bareilly-international-university-67773",
-  "https://www.shiksha.com/university/pes-university-bangalore-20875",
-  "https://www.shiksha.com/college/chaudhary-brahm-prakash-ayurved-charak-sansthan-delhi-87199",
-  "https://www.shiksha.com/university/vit-vellore-29714",
-  "https://www.shiksha.com/college/school-of-health-sciences-and-technology-upes-dehradun-70537",
-  "https://www.shiksha.com/university/aiims-kalyani-all-india-institute-of-medical-sciences-65519",
-  "https://www.shiksha.com/college/svkm-s-dr-bhanuben-nanavati-college-of-pharmacy-mumbai-vile-parle-west-52686",
-  "https://www.shiksha.com/college/kidwai-memorial-institute-of-oncology-bangalore-69853",
-  "https://www.shiksha.com/college/national-institute-of-ayurveda-jaipur-21647",
-  "https://www.shiksha.com/university/ies-university-bhopal-146121",
-  "https://www.shiksha.com/university/bangalore-university-3701",
-  "https://www.shiksha.com/college/parul-university-ahmedabad-campus-bopal-214433",
-  "https://www.shiksha.com/college/school-of-dental-sciences-sds-sharda-university-greater-noida-52352",
-  "https://www.shiksha.com/college/indian-institute-of-technology-bhu-varanasi-3011",
-  "https://www.shiksha.com/university/usha-martin-university-ranchi-52309",
-  "https://www.shiksha.com/university/guru-kashi-university-bathinda-47820",
-  "https://www.shiksha.com/college/aissms-college-of-pharmacy-kennedy-road-pune-57049",
+  "https://www.shiksha.com/college/gurudev-shri-vidhyasagar-institute-of-management-vidisha-210175",
+  "https://www.shiksha.com/college/gna-university-seekho-phagwara-212291",
+  "https://www.shiksha.com/college/adamas-university-seekho-barasat-kolkata-212307",
+  "https://www.shiksha.com/college/chennais-amirta-thrissur-216101",
+  "https://www.shiksha.com/college/delight-management-studies-and-research-institute-pune-243914",
+  "https://www.shiksha.com/college/st-anthony-s-college-karnataka-other-245046",
+  "https://www.shiksha.com/college/dvr-college-of-engineering-technology-patancheru-hyderabad-19968",
+  "https://www.shiksha.com/college/chts-institute-of-hotel-management-catering-and-tourism-lucknow-21717",
+  "https://www.shiksha.com/college/nova-college-of-engineering-and-technology-andhra-pradesh-other-22845",
+  "https://www.shiksha.com/college/shaheed-udham-singh-group-of-institutions-mohali-24386",
+  "https://www.shiksha.com/college/m-d-group-of-education-agra-25711",
+  "https://www.shiksha.com/college/ufly-international-chennai-anna-nagar-57475",
+  "https://www.shiksha.com/college/sanskar-college-of-engineering-and-technology-sanskar-educational-group-ghaziabad-59167",
+  "https://www.shiksha.com/college/v-s-lakshmi-engineering-college-for-women-kakinada-60985",
+  "https://www.shiksha.com/college/svr-engineering-college-kurnool-61073",
+  "https://www.shiksha.com/college/avanthi-s-research-and-technological-academy-andhra-pradesh-other-61137",
+  "https://www.shiksha.com/college/k-chandrakala-pg-college-tenali-62365",
+  "https://www.shiksha.com/college/royal-school-of-information-and-management-sciences-chittoor-62423",
+  "https://www.shiksha.com/college/b-a-and-k-r-mca-college-prakasam-62637",
+  "https://www.shiksha.com/college/college-of-management-and-computer-science-yavatmal-64233",
 ]
 
 
@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =221
+    c_count =2671
 
     try:
         for base_url in BASE_URL:
