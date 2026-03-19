@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/gurudev-shri-vidhyasagar-institute-of-management-vidisha-210175",
-  "https://www.shiksha.com/college/gna-university-seekho-phagwara-212291",
-  "https://www.shiksha.com/college/adamas-university-seekho-barasat-kolkata-212307",
-  "https://www.shiksha.com/college/chennais-amirta-thrissur-216101",
-  "https://www.shiksha.com/college/delight-management-studies-and-research-institute-pune-243914",
-  "https://www.shiksha.com/college/st-anthony-s-college-karnataka-other-245046",
-  "https://www.shiksha.com/college/dvr-college-of-engineering-technology-patancheru-hyderabad-19968",
-  "https://www.shiksha.com/college/chts-institute-of-hotel-management-catering-and-tourism-lucknow-21717",
-  "https://www.shiksha.com/college/nova-college-of-engineering-and-technology-andhra-pradesh-other-22845",
-  "https://www.shiksha.com/college/shaheed-udham-singh-group-of-institutions-mohali-24386",
-  "https://www.shiksha.com/college/m-d-group-of-education-agra-25711",
-  "https://www.shiksha.com/college/ufly-international-chennai-anna-nagar-57475",
-  "https://www.shiksha.com/college/sanskar-college-of-engineering-and-technology-sanskar-educational-group-ghaziabad-59167",
-  "https://www.shiksha.com/college/v-s-lakshmi-engineering-college-for-women-kakinada-60985",
-  "https://www.shiksha.com/college/svr-engineering-college-kurnool-61073",
-  "https://www.shiksha.com/college/avanthi-s-research-and-technological-academy-andhra-pradesh-other-61137",
-  "https://www.shiksha.com/college/k-chandrakala-pg-college-tenali-62365",
-  "https://www.shiksha.com/college/royal-school-of-information-and-management-sciences-chittoor-62423",
-  "https://www.shiksha.com/college/b-a-and-k-r-mca-college-prakasam-62637",
-  "https://www.shiksha.com/college/college-of-management-and-computer-science-yavatmal-64233",
+  "https://www.shiksha.com/college/college-of-agricultural-engineering-bapatla-guntur-60658",
+  "https://www.shiksha.com/college/dr-d-y-patil-school-of-engineering-and-technology-pune-190281",
+  "https://www.shiksha.com/college/agragami-group-vsm-institute-of-aerospace-engineering-and-technology-yelahanaka-bangalore-47029",
+  "https://www.shiksha.com/college/g-m-vedak-institute-of-technology-raigad-59783",
+  "https://www.shiksha.com/college/government-engineering-college-madhubani-146455",
+  "https://www.shiksha.com/university/jan-nayak-ch-devi-lal-vidyapeeth-jcdv-haryana-other-23179",
+  "https://www.shiksha.com/college/mgm-college-of-engineering-and-technology-ernakulam-ernakulum-60525",
+  "https://www.shiksha.com/college/madhuben-and-bhanubhai-patel-institute-of-technology-cvm-university-anand-65575",
+  "https://www.shiksha.com/college/j-t-mahajan-college-of-engineering-jalgaon-20355",
+  "https://www.shiksha.com/college/sri-venkatesa-perumal-college-of-engineering-and-technology-svpcet-chittoor-21299",
+  "https://www.shiksha.com/college/mahaveer-institute-of-technology-meerut-43213",
+  "https://www.shiksha.com/college/om-engineering-college-junagadh-60131",
+  "https://www.shiksha.com/college/government-engineering-college-krishnarajpet-mandya-66691",
+  "https://www.shiksha.com/college/bapatla-women-s-engineering-college-guntur-47401",
+  "https://www.shiksha.com/college/kalasalingam-institute-of-technology-virudhunagar-53881",
+  "https://www.shiksha.com/college/maharaja-suhel-dev-state-university-azamgarh-243724",
+  "https://www.shiksha.com/college/marathwada-institute-of-technology-bulandshahr-25286",
+  "https://www.shiksha.com/college/chandravati-group-of-institutions-c-g-i-bharatpur-36805",
+  "https://www.shiksha.com/college/bheema-institute-of-technology-and-science-kurnool-47373",
+  "https://www.shiksha.com/college/narnarayan-shastri-institute-of-technology-ahmedabad-60117",
 ]
 
 
@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =2671
+    c_count =1521
 
     try:
         for base_url in BASE_URL:
