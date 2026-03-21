@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/college-of-agricultural-engineering-bapatla-guntur-60658",
-  "https://www.shiksha.com/college/dr-d-y-patil-school-of-engineering-and-technology-pune-190281",
-  "https://www.shiksha.com/college/agragami-group-vsm-institute-of-aerospace-engineering-and-technology-yelahanaka-bangalore-47029",
-  "https://www.shiksha.com/college/g-m-vedak-institute-of-technology-raigad-59783",
-  "https://www.shiksha.com/college/government-engineering-college-madhubani-146455",
-  "https://www.shiksha.com/university/jan-nayak-ch-devi-lal-vidyapeeth-jcdv-haryana-other-23179",
-  "https://www.shiksha.com/college/mgm-college-of-engineering-and-technology-ernakulam-ernakulum-60525",
-  "https://www.shiksha.com/college/madhuben-and-bhanubhai-patel-institute-of-technology-cvm-university-anand-65575",
-  "https://www.shiksha.com/college/j-t-mahajan-college-of-engineering-jalgaon-20355",
-  "https://www.shiksha.com/college/sri-venkatesa-perumal-college-of-engineering-and-technology-svpcet-chittoor-21299",
-  "https://www.shiksha.com/college/mahaveer-institute-of-technology-meerut-43213",
-  "https://www.shiksha.com/college/om-engineering-college-junagadh-60131",
-  "https://www.shiksha.com/college/government-engineering-college-krishnarajpet-mandya-66691",
-  "https://www.shiksha.com/college/bapatla-women-s-engineering-college-guntur-47401",
-  "https://www.shiksha.com/college/kalasalingam-institute-of-technology-virudhunagar-53881",
-  "https://www.shiksha.com/college/maharaja-suhel-dev-state-university-azamgarh-243724",
-  "https://www.shiksha.com/college/marathwada-institute-of-technology-bulandshahr-25286",
-  "https://www.shiksha.com/college/chandravati-group-of-institutions-c-g-i-bharatpur-36805",
-  "https://www.shiksha.com/college/bheema-institute-of-technology-and-science-kurnool-47373",
-  "https://www.shiksha.com/college/narnarayan-shastri-institute-of-technology-ahmedabad-60117",
+  "https://www.shiksha.com/college/sunrise-college-of-pharmacy-udaipur-193439",
+  "https://www.shiksha.com/college/p-post-graduate-college-of-physiotherapy-coimbatore-193635",
+  "https://www.shiksha.com/college/sects-allamprabhu-college-of-pharmcy-bidar-199507",
+  "https://www.shiksha.com/college/fortis-memorial-research-institute-gugaon-gurgaon-240784",
+  "https://www.shiksha.com/college/paras-hmri-hospital-patna-240850",
+  "https://www.shiksha.com/college/govt-dental-college-and-hospital-cuddalore-242474",
+  "https://www.shiksha.com/college/dr-allu-ramalingaiah-govt-homeopathic-medical-college-east-godavari-244492",
+  "https://www.shiksha.com/college/gmr-aero-academy-delhi-delhi-airport-47159",
+  "https://www.shiksha.com/college/bhaskara-institute-of-pharmacy-vizianagaram-61247",
+  "https://www.shiksha.com/college/bahubali-vidyapeetha-jv-mandals-grameena-ayurveda-college-bagalkot-68197",
+  "https://www.shiksha.com/college/mahila-utkarsh-pratishthan-s-ayurved-college-hospital-and-research-centre-maharashtra-other-68213",
+  "https://www.shiksha.com/college/bis-polytechnic-college-moga-68343",
+  "https://www.shiksha.com/college/sai-pranavi-college-of-pharmacy-kolkata-87779",
+  "https://www.shiksha.com/college/varun-college-of-pharmacy-jaipur-88355",
+  "https://www.shiksha.com/college/sujana-college-of-pharmacy-visakhapatnam-88433",
+  "https://www.shiksha.com/college/kd-pawar-college-of-pharmacy-nagpur-88817",
+  "https://www.shiksha.com/college/m-i-t-polytechnic-college-salem-99491",
+  "https://www.shiksha.com/college/om-institute-of-technology-haridwar-99707",
+  "https://www.shiksha.com/college/ahm-college-of-pharmacy-uttar-pradesh-other-181715",
+  "https://www.shiksha.com/college/sushila-devi-college-of-pharmacy-uttar-pradesh-other-181883",
 ]
 
 
@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1521
+    c_count =3661
 
     try:
         for base_url in BASE_URL:
