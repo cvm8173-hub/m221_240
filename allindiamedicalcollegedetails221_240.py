@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/girja-devi-college-of-pharmacy-uttar-pradesh-other-181743",
-  "https://www.shiksha.com/college/hs-college-of-pharmacy-hathras-181839",
-  "https://www.shiksha.com/college/faculty-of-pharmacy-chandrabhan-singh-degree-college-jaunpur-181857",
-  "https://www.shiksha.com/college/sir-atma-ram-institute-of-pharmacy-and-technology-jabalpur-230080",
-  "https://www.shiksha.com/college/kgn-college-of-pharmacy-sikar-231418",
-  "https://www.shiksha.com/college/sai-college-of-pharmacy-bihar-other-231542",
-  "https://www.shiksha.com/college/bharati-vidyapeeth-college-of-pharmacy-palus-sangli-236664",
-  "https://www.shiksha.com/college/dnyan-ganga-education-trust-dget-thane-236690",
-  "https://www.shiksha.com/college/pandit-ambika-prasad-kamla-devi-college-of-pharmacy-firozabad-237078",
-  "https://www.shiksha.com/college/aastha-institute-of-pharmacy-murshidabad-237224",
-  "https://www.shiksha.com/college/rangamati-college-of-pharmacy-birbhum-237336",
-  "https://www.shiksha.com/college/bmp-college-of-pharmacy-rewari-237386",
-  "https://www.shiksha.com/college/narayana-multispecialty-hospital-jaipur-240528",
-  "https://www.shiksha.com/college/care-hospital-nampally-hyderabad-240664",
-  "https://www.shiksha.com/college/livasa-hospital-mohali-240714",
-  "https://www.shiksha.com/college/dbr-sk-super-speciality-hospital-tirupati-240770",
-  "https://www.shiksha.com/college/human-care-medical-charitable-trust-delhi-240794",
-  "https://www.shiksha.com/college/suchirayu-mulitispeciality-hospital-hubli-241906",
-  "https://www.shiksha.com/college/holy-cross-super-speciality-hospital-kottayam-106045",
-  "https://www.shiksha.com/college/siddheswar-college-balasore-129005",
+  "https://www.shiksha.com/college/b-s-r-college-of-pharmacy-uttar-pradesh-other-181141",
+  "https://www.shiksha.com/college/dharamveer-degree-college-uttar-pradesh-other-181157",
+  "https://www.shiksha.com/college/dr-awadhesh-prakash-sharma-college-of-pharmacy-uttar-pradesh-other-181173",
+  "https://www.shiksha.com/college/green-lead-college-of-nursing-hyderabad-194345",
+  "https://www.shiksha.com/college/velankanni-matha-college-of-nursing-kottayam-194737",
+  "https://www.shiksha.com/college/naigaon-diploma-in-pharmacy-nanded-198123",
+  "https://www.shiksha.com/college/dharti-janseva-pratishthan-s-college-of-pharmacy-pathri-d-pharm-parbhani-198877",
+  "https://www.shiksha.com/college/sri-t-s-chandrashekaraiah-institute-of-paramedical-sciences-mysore-199409",
+  "https://www.shiksha.com/college/seethalakshmi-school-of-nursing-erode-200117",
+  "https://www.shiksha.com/college/shivam-school-of-pharmacy-jharkhand-other-201763",
+  "https://www.shiksha.com/college/s-l-e-s-college-of-pharmacy-chikballpura-202403",
+  "https://www.shiksha.com/college/r-b-college-of-pharmacy-jharkhand-other-207627",
+  "https://www.shiksha.com/college/shobha-educational-charitable-trust-jharkhand-other-207657",
+  "https://www.shiksha.com/college/basava-pharmacy-college-karnataka-other-207699",
+  "https://www.shiksha.com/college/btl-college-of-pharmacy-bangalore-207705",
+  "https://www.shiksha.com/college/jijamata-college-of-pharmacy-bidar-207773",
+  "https://www.shiksha.com/college/neelganga-institute-of-pharmacy-sciences-bidar-207819",
+  "https://www.shiksha.com/college/r-s-m-educational-society-sri-sai-college-of-pharmacy-bangalore-207871",
+  "https://www.shiksha.com/college/kalyani-kidney-care-centre-tamil-nadu-other-214361",
+  "https://www.shiksha.com/college/vivekanand-college-of-nursing-bhubaneswar-227703",
 ]
 
 
@@ -9244,7 +9244,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =4021
+    c_count =4381
 
     try:
         for base_url in BASE_URL:
