@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/b-s-r-college-of-pharmacy-uttar-pradesh-other-181141",
-  "https://www.shiksha.com/college/dharamveer-degree-college-uttar-pradesh-other-181157",
-  "https://www.shiksha.com/college/dr-awadhesh-prakash-sharma-college-of-pharmacy-uttar-pradesh-other-181173",
-  "https://www.shiksha.com/college/green-lead-college-of-nursing-hyderabad-194345",
-  "https://www.shiksha.com/college/velankanni-matha-college-of-nursing-kottayam-194737",
-  "https://www.shiksha.com/college/naigaon-diploma-in-pharmacy-nanded-198123",
-  "https://www.shiksha.com/college/dharti-janseva-pratishthan-s-college-of-pharmacy-pathri-d-pharm-parbhani-198877",
-  "https://www.shiksha.com/college/sri-t-s-chandrashekaraiah-institute-of-paramedical-sciences-mysore-199409",
-  "https://www.shiksha.com/college/seethalakshmi-school-of-nursing-erode-200117",
-  "https://www.shiksha.com/college/shivam-school-of-pharmacy-jharkhand-other-201763",
-  "https://www.shiksha.com/college/s-l-e-s-college-of-pharmacy-chikballpura-202403",
-  "https://www.shiksha.com/college/r-b-college-of-pharmacy-jharkhand-other-207627",
-  "https://www.shiksha.com/college/shobha-educational-charitable-trust-jharkhand-other-207657",
-  "https://www.shiksha.com/college/basava-pharmacy-college-karnataka-other-207699",
-  "https://www.shiksha.com/college/btl-college-of-pharmacy-bangalore-207705",
-  "https://www.shiksha.com/college/jijamata-college-of-pharmacy-bidar-207773",
-  "https://www.shiksha.com/college/neelganga-institute-of-pharmacy-sciences-bidar-207819",
-  "https://www.shiksha.com/college/r-s-m-educational-society-sri-sai-college-of-pharmacy-bangalore-207871",
-  "https://www.shiksha.com/college/kalyani-kidney-care-centre-tamil-nadu-other-214361",
-  "https://www.shiksha.com/college/vivekanand-college-of-nursing-bhubaneswar-227703",
+  "https://www.shiksha.com/university/dr-k-n-modi-university-modinagar-244128",
+  "https://www.shiksha.com/college/esic-model-hospital-bapunagar-ahmedabad-244462",
+  "https://www.shiksha.com/college/ujala-cygnus-jk-medicity-hospital-jammu-245234",
+  "https://www.shiksha.com/college/creative-ednl-societys-coll-of-pharmacy-kurnool-60704",
+  "https://www.shiksha.com/college/st-john-s-college-of-pharmaceutical-sciences-and-research-idukki-60821",
+  "https://www.shiksha.com/college/chaitanya-college-of-pharmacy-markapur-andhra-pradesh-other-61163",
+  "https://www.shiksha.com/college/sindagi-shanthaveereshwara-ayurvedic-medical-college-haveri-87299",
+  "https://www.shiksha.com/college/mgm-silver-jubilee-college-of-polytechnic-and-pharmaceutical-sciences-ernakulum-147037",
+  "https://www.shiksha.com/college/department-of-yoga-and-science-of-living-jain-vishva-bharati-institute-rajasthan-other-54138",
+  "https://www.shiksha.com/college/government-ranbir-college-sangrur-65207",
+  "https://www.shiksha.com/college/ncrd-s-institute-of-pharmacy-navi-mumbai-89173",
+  "https://www.shiksha.com/college/billroth-hospital-chennai-105957",
+  "https://www.shiksha.com/college/maa-saraswati-paramedical-institute-ghazipur-148675",
+  "https://www.shiksha.com/college/rajkiya-taqmil-uttib-college-lucknow-184081",
+  "https://www.shiksha.com/college/government-college-panipat-195523",
+  "https://www.shiksha.com/college/badol-devi-college-of-pharmacy-bangalore-199749",
+  "https://www.shiksha.com/college/government-medical-college-jayashankar-telangana-other-213215",
+  "https://www.shiksha.com/college/esic-medical-college-hospital-jaipur-244944",
+  "https://www.shiksha.com/college/st-philominas-college-mysore-69677",
+  "https://www.shiksha.com/college/sikh-national-college-shahid-bhagat-singh-nagar-75209",
 ]
 
 
@@ -9244,7 +9244,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =4381
+    c_count =2681
 
     try:
         for base_url in BASE_URL:
